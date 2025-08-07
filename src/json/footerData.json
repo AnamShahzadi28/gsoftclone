@@ -1,0 +1,32 @@
+{
+    "company": [
+      { "name": "About", "href": "/about" },
+      { "name": "Life at Gsoft", "href": "/life-at-gsoft" },
+      { "name": "Contact us", "href": "/contact" },
+      { "name": "Careers", "href": "/careers" }
+    ],
+    "services1": [
+      { "name": "Website Design Services", "href": "/services/website-design" },
+      { "name": "Mobile Application Design", "href": "/services/mobile-app-design" },
+      { "name": "AI/ML Development Services", "href": "/services/ai-ml-development" },
+      { "name": "Mobile App Development", "href": "/services/mobile-app-development" },
+      { "name": "Back-End Development", "href": "/services/backend-development" }
+    ],
+    "services2": [
+      { "name": "Web App Development", "href": "/services/web-app-development" },
+      { "name": "UI/UX Design Services", "href": "/services/ui-ux-design" },
+      { "name": "DevOps Services Company", "href": "/services/devops" },
+      { "name": "Logo Design Company", "href": "/services/logo-design" },
+      { "name": "Team Augmentation Services", "href": "/services/team-augmentation" }
+    ],
+    "technologies": [
+      "Redis", "Node.js", "Php", "Digital ocean", "Gradle", "Amazon", "Azure", "Linode", "Rackspace", "Jenkins"
+    ],
+    "socials": [
+      { "name": "Facebook", "href": "https://www.facebook.com/gsoftconsulting", "icon": "FaFacebookF" },
+      { "name": "Instagram", "href": "https://www.instagram.com/gsoftconsulting", "icon": "FaInstagram" },
+      { "name": "LinkedIn", "href": "https://www.linkedin.com/company/gsoftconsulting", "icon": "FaLinkedinIn" },
+      { "name": "Twitter", "href": "https://twitter.com/gsoftconsulting", "icon": "FaTwitter" },
+      { "name": "Behance", "href": "https://www.behance.net/gsoftconsulting", "icon": "FaBehance" }
+    ]
+  }

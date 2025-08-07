@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "Discover & Planning", "description": "Get your project requirements planned out so you can hit the ground running." },
+  { "id": 2, "title": "Estimate", "description": "Our team of business analysts, software architects, and developers will get together to define your product or project and estimate the effort required." },
+  { "id": 3, "title": "Development & Testing", "description": "Bring your design ideas to life with our build team - we’ll make sure it works flawlessly." },
+  { "id": 4, "title": "Deployment", "description": "Get your product ready for takeoff. Your product has been through rigorous testing and is now ready for deployment!" }
+]

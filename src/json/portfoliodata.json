@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "category": "Mobile App",
+    "image": "/images/portfolio/clothapp.png",
+    "title": "uDress Mobile App",
+    "description": "uDress is a boutique at your fingertips. This unique platform allows users to post and sell any type of dress. Its easy to use search feature allows buyers to quickly find the type of dress, color and...",
+    "technologies": ["React Native", "Express", "MySQL", "Google Map", "NodeJS", "JavaScript/ES6", "Firebase", "Google Analytics"]
+  },
+  {
+    "id": 2,
+    "category": "Mobile App",
+    "image": "/images/portfolio/tibbiapp.png",
+    "title": "Tibbi Mobile App",
+    "description": "It's a true one-stop healthcare solution which makes healthcare more accessible and affordable for Pakistanis. You can avail discounts on pharmacy and lab services, experience unparalleled services by...",
+    "technologies": ["Typescript", "React Native", "React Redux", "React-Navigation", "Agora", "Strapi.io", "Postgres"]
+  },
+  {
+    "id": 3,
+    "category": "Mobile App",
+    "image": "/images/portfolio/clothapp.png",
+    "title": "uDress Mobile App (Seller View)",
+    "description": "uDress is a boutique at your fingertips. This unique platform allows users to post and sell any type of dress. Its easy to use search feature allows buyers to quickly find the type of dress, color and...",
+    "technologies": ["React Native", "Express", "MySQL", "Google Map", "NodeJS", "JavaScript/ES6", "Firebase", "Google Analytics"]
+  },
+  {
+    "id": 4,
+    "category": "Web App",
+    "image": "/images/portfolio/careerkitchenweb.png",
+    "title": "Career Kitchen Web App",
+    "description": "A comprehensive web platform for managing enterprise resources, with a focus on scalability and user experience.",
+    "technologies": ["Next.js", "TypeScript", "GraphQL", "Prisma", "PostgreSQL"]
+  },
+  {
+    "id": 5,
+    "category": "Web App",
+    "image": "/images/portfolio/blindwebapp.png",
+    "title": "Blind Web App",
+    "description": "A modern, fast, and reliable e-commerce solution with a custom-built checkout and inventory management system.",
+    "technologies": ["Vue.js", "Node.js", "Stripe", "MongoDB"]
+  },
+  {
+    "id": 6,
+    "category": "Web App",
+    "image": "/images/portfolio/careerkitchenweb.png",
+    "title": "Tibbi Web App",
+    "description": "A web-based platform for patients and doctors to connect, book appointments, and manage medical records seamlessly.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io"]
+  }
+]

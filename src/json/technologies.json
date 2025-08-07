@@ -1,0 +1,126 @@
+[
+  {
+    "id": "frontend",
+    "label": "Front-End",
+    "technologies": [
+      {
+        "name": "React",
+        "logo": "/images/tech/react.png"
+      },
+      {
+        "name": "Next.js",
+        "logo": "/images/tech/flutter.png"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "/images/tech/ts.png"
+      },
+      {
+        "name": "Angular",
+        "logo": "/images/tech/angular.png"
+      },
+      {
+        "name": "React",
+        "logo": "/images/tech/react.png"
+      },
+      {
+        "name": "Next.js",
+        "logo": "/images/tech/flutter.png"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "/images/tech/ts.png"
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "label": "Mobile",
+    "technologies": [
+      {
+        "name": "React Native",
+        "logo": "/images/tech/react.png"
+      },
+      {
+        "name": "Flutter",
+        "logo": "/images/tech/flutter.png"
+      },
+      {
+        "name": "Swift",
+        "logo": "/images/tech/angular.png"
+      }
+    ]
+  },
+  {
+    "id": "cms",
+    "label": "CMS",
+    "technologies": [
+      {
+        "name": "WordPress",
+        "logo": "/images/tech/angular.png"
+      },
+      {
+        "name": "Shopify",
+        "logo": "/images/tech/shopify.png"
+      },
+      {
+        "name": "Drupal",
+        "logo": "/images/tech/react.png"
+      }
+    ]
+  },
+  {
+    "id": "backend",
+    "label": "Back-End",
+    "technologies": [
+      {
+        "name": "Node .js",
+        "logo": "/images/tech/nodejs.png"
+      },
+      {
+        "name": "Php",
+        "logo": "/images/tech/angular.png"
+      },
+      {
+        "name": "Java",
+        "logo": "/images/tech/html.png"
+      }
+    ]
+  },
+  {
+    "id": "infra",
+    "label": "Infra and devops",
+    "technologies": [
+        {
+          "name": "Docker",
+          "logo": "/images/tech/html.png"
+        },
+        {
+          "name": "Kubernetes",
+          "logo": "/images/tech/angular.png"
+        },
+        {
+          "name": "AWS",
+         "logo": "/images/tech/html.png"
+        }
+    ]
+  },
+  {
+    "id": "database",
+    "label": "Database",
+    "technologies": [
+      {
+        "name": "MongoDB",
+        "logo": "/images/tech/html.png"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "/images/tech/angular.png"
+      },
+      {
+        "name": "MySQL",
+        "logo": "/images/tech/html.png"
+      }
+    ]
+  }
+]

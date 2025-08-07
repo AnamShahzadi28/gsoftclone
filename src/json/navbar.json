@@ -1,0 +1,52 @@
+{
+  "navLinks": [
+    { "name": "Company", "href": "/about" },
+    {
+      "name": "Services",
+      "href": "/services",
+      "isDropdown": true,
+      "megaMenu": [
+        {
+          "heading": "Development",
+          "links": [
+            { "name": "Web App Development", "href": "/services/web-app-development" },
+            { "name": "Back-End Development", "href": "/services/backend-development" },
+            { "name": "Mobile App Development", "href": "/services/mobile-app-development" },
+            { "name": "AI/ML Development Services", "href": "/services/ai-ml-development" }
+          ]
+        },
+        {
+          "heading": "Design",
+          "links": [
+            { "name": "UI/UX Design Services", "href": "/services/ui-ux-design" },
+            { "name": "Website Design Services", "href": "/services/website-design" },
+            { "name": "Mobile Application Design", "href": "/services/mobile-app-design" },
+            { "name": "Logo Design Company", "href": "/services/logo-design" }
+          ]
+        },
+        {
+          "heading": "Other Services",
+          "links": [
+            { "name": "DevOps Services Company", "href": "/services/devops" },
+            { "name": "Cloud Services Company", "href": "/services/cloud" },
+            { "name": "Team Augmentation Services", "href": "/services/team-augmentation" }
+          ]
+        },
+        {
+          "heading": "How we work",
+          "links": [
+            { "name": "Discover", "href": "/process/discover" },
+            { "name": "Planning and Designing", "href": "/process/planning" },
+            { "name": "Development & Testing", "href": "/process/development" },
+            { "name": "Deploy & Support", "href": "/process/support" }
+          ]
+        }
+      ]
+    },
+    { "name": "Portfolio", "href": "/portfolio" },
+    { "name": "Blog", "href": "/blog" },
+    { "name": "Careers", "href": "/careers" },
+    { "name": "Contact Us", "href": "/contact" },
+    { "name": "Life at Gsoft", "href": "/life-at-gsoft" }
+  ]
+}

@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="border-t border-cyan mt-12 mb-8"></div>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-2.5">
             <div className="flex space-x-4">
                 {footerData.socials.map(social => {
                     const Icon = iconComponents[social.icon];
@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                 })}
             </div>
             <button onClick={scrollToTop} className="bg-cyan text-white p-3 rounded-full">
-            <ChevronUp/>
+            <ChevronUp className="text-navbg"/>
             </button>
         </div>
       </div>

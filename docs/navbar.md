@@ -68,8 +68,10 @@ This component is tailored for desktop users and provides a rich navigation expe
 This component ensures a smooth navigation experience on mobile devices.
 
 -   **Hamburger Menu**: Displays a hamburger menu icon that toggles the visibility of the navigation links.
--   **Dropdown Menu**: The "Services" link expands to show its sub-links in a dropdown format.
--   **Close on Navigation**: The mobile menu closes automatically when a navigation link is clicked.
+-   **Dropdown Menu**: For items with sub-links (like "Services"), the component now features a split interaction model.
+    -   The item name itself (e.g., "Services") is a direct `Link` to the main category page (e.g., `/services`).
+    -   A separate chevron icon button next to the name is used to toggle the visibility of the dropdown containing the sub-links.
+-   **Close on Navigation**: The mobile menu closes automatically when any navigation link is clicked, ensuring a smooth user experience.
 
 ### `NavItem.tsx`
 

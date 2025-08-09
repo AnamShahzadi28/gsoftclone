@@ -63,60 +63,93 @@ export default function Portfolio() {
         </div>
 
         <div className="mt-12">
-          <div className="relative w-full overflow-hidden">
-            <div
-              className="flex items-center transition-transform duration-500 ease-in-out "
-              style={{ transform: `translateX(calc(24% - ${currentIndex * 52}%))` }}
-            >
-              {filteredProjects.map((project, index) => (
-                <div
-                  key={project.id}
-                  className={`relative h-[450px] flex-shrink-0 transition-transform duration-500 ease-in-out ${
-                    currentIndex === index ? 'scale-100' : 'scale-80 blur-xs'
-                  }`}
-                  style={{ width: '50%', margin: '0%' }}
-                >
-                  <Image
-                    src={project.image}
-                    alt={project.title}
-                    fill
-                    style={{ objectFit: 'contain' }}
-                    className="rounded-lg"
-                  />
-                </div>
-              ))}
+          {/* Carousel for large screens */}
+          <div className="hidden lg:block">
+            <div className="relative w-full overflow-hidden">
+              <div
+                className="flex items-center transition-transform duration-500 ease-in-out"
+                style={{ transform: `translateX(calc(25% - ${currentIndex * 50}%))` }}
+              >
+                {filteredProjects.map((project, index) => (
+                  <div
+                    key={project.id}
+                    className={`relative h-[450px] flex-shrink-0 transition-transform duration-500 ease-in-out ${
+                      currentIndex === index ? 'scale-100' : 'scale-80 blur-xs'
+                    }`}
+                    style={{ width: '50%' }}
+                  >
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      style={{ objectFit: 'contain' }}
+                      className="rounded-lg"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
+          {/* Carousel for small and medium screens */}
+          <div className="lg:hidden">
+            <div className="relative w-full overflow-hidden">
+              <div
+                className="flex transition-transform duration-500 ease-in-out"
+                style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+              >
+                {filteredProjects.map(project => (
+                  <div key={project.id} className="w-full flex-shrink-0 px-4">
+                    <div className="relative h-64 sm:h-80 md:h-96 w-full">
+                      <Image
+                        src={project.image}
+                        alt={project.title}
+                        fill
+                        style={{ objectFit: 'contain' }}
+                        className="rounded-lg"
+                      />
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Project Details */}
           {activeProject && (
-            <div className="max-w-4xl w-full mt-8 text-left mx-auto p-8  rounded-lg">
-              <div className="flex justify-between items-center">
-                <h4 className="text-5xl font-bold text-gray-800">{activeProject.title}</h4>
-                <div className="flex items-center gap-3">
+            <div className="max-w-4xl w-full mt-8 text-left mx-auto p-4 md:p-8 rounded-lg">
+              <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <h4 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 order-2 md:order-1">
+                  {activeProject.title}
+                </h4>
+                <div className="flex items-center gap-3 order-1 md:order-2 self-end md:self-center">
                   {currentIndex > 0 && (
                     <button
                       onClick={prevProject}
-                      className="w-12 h-12 rounded-full  text-white bg-navbg flex items-center justify-center  transition-colors "
+                      className="w-10 h-10 md:w-12 md:h-12 rounded-full text-white bg-navbg flex items-center justify-center transition-colors"
                       aria-label="Previous Project"
                     >
-                      <ArrowLeft className="w-6 h-6" />
+                      <ArrowLeft className="w-5 h-5 md:w-6 md:h-6" />
                     </button>
                   )}
                   {currentIndex < filteredProjects.length - 1 && (
                     <button
                       onClick={nextProject}
-                      className="w-12 h-12 rounded-full text-white bg-navbg  flex items-center justify-center  transition-colors "
+                      className="w-10 h-10 md:w-12 md:h-12 rounded-full text-white bg-navbg flex items-center justify-center transition-colors"
                       aria-label="Next Project"
                     >
-                      <ArrowRight className="w-6 h-6" />
+                      <ArrowRight className="w-5 h-5 md:w-6 md:h-6" />
                     </button>
                   )}
                 </div>
               </div>
-              <p className="mt-4  text-lg max-w-2xl">{activeProject.description}</p>
-              <div className="flex flex-wrap gap-3 mt-6">
+              <p className="mt-4 text-base md:text-lg max-w-2xl">{activeProject.description}</p>
+              <div className="flex flex-wrap gap-2 md:gap-3 mt-6">
                 {activeProject.technologies.map(tag => (
-                  <span key={tag} className="px-4 py-2 bg-navbg text-white text-sm font-medium rounded-md">
+                  <span
+                    key={tag}
+                    className="px-3 py-1.5 md:px-4 md:py-2 bg-navbg text-white text-xs md:text-sm font-medium rounded-md"
+                  >
                     {tag}
                   </span>
                 ))}

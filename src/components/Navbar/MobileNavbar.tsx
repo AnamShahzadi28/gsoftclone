@@ -21,12 +21,15 @@ export default function MobileNavbar({ navLinks, onClose }: MobileNavbarProps) {
       {navLinks.map((item) =>
         item.isDropdown && item.megaMenu ? (
           <NavbarMenuItem key={item.name}>
-            <div className="w-full text-white text-lg py-2">
+            <div className="flex w-full items-center justify-between text-white text-lg py-2">
+              <Link href={item.href} onClick={onClose} className="flex-grow">
+                {item.name}
+              </Link>
               <button
-                className="w-full flex justify-between items-center bg-transparent"
+                className="p-2 -mr-2"
                 onClick={() => toggleDropdown(item.name)}
+                aria-label="Toggle submenu"
               >
-                <span>{item.name}</span>
                 {openDropdown === item.name ? (
                   <ChevronUpIcon className="w-5 h-5" />
                 ) : (

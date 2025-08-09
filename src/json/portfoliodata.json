@@ -3,40 +3,106 @@
     "id": 1,
     "category": "Mobile App",
     "image": "/images/portfolio/clothapp.png",
+    "slug": "udress-app",
     "title": "uDress Mobile App",
-    "description": "uDress is a boutique at your fingertips. This unique platform allows users to post and sell any type of dress. Its easy to use search feature allows buyers to quickly find the type of dress, color and...",
-    "technologies": ["React Native", "Express", "MySQL", "Google Map", "NodeJS", "JavaScript/ES6", "Firebase", "Google Analytics"]
+    "description": "uDress is a boutique at your fingertips. This unique platform allows users to post and sell any type of dress. Its easy to use search feature allows buyers to quickly find the type of dress, colorsize that they are looking for!",
+    "technologies": [
+      "React Native",
+      "Express",
+      "MySQL",
+      "Google Map",
+      "NodeJS",
+      "JavaScript/ES6",
+      "Firebase",
+      "Google Analytics"
+    ],
+    "features": [
+      " Registration to sell the course with multiple episodes by the Instructor",
+      "YouTube videos can be uploaded as course episodes",
+      "Allowed users can create free/paid challenges on any course as well as participate.",
+      "Users can follow other and start a chat",
+      "Notifications regarding friends, requests and challenges"
+    ]
   },
   {
     "id": 2,
     "category": "Mobile App",
     "image": "/images/portfolio/tibbiapp.png",
+    "slug": "tibbi-app",
     "title": "Tibbi Mobile App",
-    "description": "It's a true one-stop healthcare solution which makes healthcare more accessible and affordable for Pakistanis. You can avail discounts on pharmacy and lab services, experience unparalleled services by...",
-    "technologies": ["Typescript", "React Native", "React Redux", "React-Navigation", "Agora", "Strapi.io", "Postgres"]
+    "technologies": [
+      "Typescript",
+      "React Native",
+      "React Redux",
+      "React-Navigation",
+      "Agora",
+      "Strapi.io",
+      "Postgres"
+    ],
+    "description": "It's a true one-stop healthcare solution which makes healthcare more accessible and affordable for Pakistanis. You can avail discounts on pharmacy and lab services, experience unparalleled services by making a call or click away from all your healthcare needs.",
+    "features": [
+      "Video call sessions between patient and a doctor for recommendations",
+      "Medicines as well as Lab tests can be ordered from home",
+      "Videos on multiple informative topics",
+      "Notifications based on new videos, current and pending orders"
+    ]
   },
   {
     "id": 3,
     "category": "Mobile App",
+    "slug": "omid-life",
     "image": "/images/portfolio/clothapp.png",
-    "title": "uDress Mobile App (Seller View)",
-    "description": "uDress is a boutique at your fingertips. This unique platform allows users to post and sell any type of dress. Its easy to use search feature allows buyers to quickly find the type of dress, color and...",
-    "technologies": ["React Native", "Express", "MySQL", "Google Map", "NodeJS", "JavaScript/ES6", "Firebase", "Google Analytics"]
+    "title": "Omid Life",
+    "description": "uDress is a boutique at your fingertips. This unique platform allows users to post and sell any type of dress. Its easy to use search feature allows buyers to quickly find the type of dress, color and size that they are looking for!",
+    "technologies": [
+      "React Native",
+      "Express",
+      "MySQL",
+      "Google Map",
+      "NodeJS",
+      "JavaScript/ES6",
+      "Firebase",
+      "Google Analytics"
+    ],
+    "features": [
+      " Registration to sell the course with multiple episodes by the Instructor",
+      "YouTube videos can be uploaded as course episodes",
+      "Allowed users can create free/paid challenges on any course as well as participate.",
+      "Users can follow other and start a chat",
+      "Notifications regarding friends, requests and challenges"
+    ]
   },
+
   {
     "id": 4,
     "category": "Web App",
     "image": "/images/portfolio/careerkitchenweb.png",
+    "slug": "career-kitchen",
     "title": "Career Kitchen Web App",
-    "description": "A comprehensive web platform for managing enterprise resources, with a focus on scalability and user experience.",
+    "description": "Careers Kitchen provides the advice, guidance, tools and resources one need to embark on a career path that perfectly matches his aspirations and future goals. / Careers Kitchens career development program is designed to guide you through your unique career challenges. Whether you're pursuing your first job, a career change, or a promotion. It has a user-friendly platform that provides action-orientated career advice, psychometric insights, and data-driven tools that help identify the perfect career path for you.",
+
+    "features": [
+      "Use market insights to match you to the market",
+      "Help you develop a structured, efficient approach to career planning & job hunting",
+      "Ongoing support and guidance User-friendly and convenient digital platform",
+      "User-friendly and convenient digital platform"
+    ],
     "technologies": ["Next.js", "TypeScript", "GraphQL", "Prisma", "PostgreSQL"]
   },
   {
     "id": 5,
     "category": "Web App",
+    "slug": "blend-menu",
     "image": "/images/portfolio/blindwebapp.png",
     "title": "Blind Web App",
     "description": "A modern, fast, and reliable e-commerce solution with a custom-built checkout and inventory management system.",
+
+    "features": [
+      " Easy Management of order acceptance",
+      "Maintenance of the previous order history",
+      "Manage tabs for client app",
+      "Stripe payment"
+    ],
     "technologies": ["Vue.js", "Node.js", "Stripe", "MongoDB"]
   },
   {
@@ -44,7 +110,32 @@
     "category": "Web App",
     "image": "/images/portfolio/careerkitchenweb.png",
     "title": "Tibbi Web App",
+    "slug": "tibbi-web-app",
     "description": "A web-based platform for patients and doctors to connect, book appointments, and manage medical records seamlessly.",
-    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io"]
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+
+    "features": [
+      "Video call sessions between patient and a doctor for recommendations",
+      "Medicines as well as Lab tests can be ordered from home",
+      "Videos on multiple informative topics",
+      "Notifications based on new videos, current and pending orders"
+    ]
+  },
+
+  {
+    "id": 7,
+    "category": "Web App",
+    "slug": "blend-menu",
+    "image": "/images/portfolio/blindwebapp.png",
+    "title": "Blind Web App",
+    "description": "Blend Menu is Progressive Web App which allows your guests to place orders from their smartphones without installing anything. Moreover, it allows users to scan a QR code and order, by improving guest experience and reducing costs. It’s multi tenant application which can be deployed for multiple customers(restaurants)",
+
+    "features": [
+      " Easy Management of order acceptance",
+      "Maintenance of the previous order history",
+      "Manage tabs for client app",
+      "Stripe payment"
+    ],
+    "technologies": ["Vue.js", "Node.js", "Stripe", "MongoDB"]
   }
 ]

@@ -69,6 +69,7 @@ All interfaces for the form components are centralized in `h:/gsoft/gsoftweb/src
     - `FormSelectProps`: Defines props for `FormSelect`.
     - `FormTextareaProps`: Defines props for `FormTextarea`.
     - `FormFileInputProps`: Defines props for `FormFileInput`.
+    - `FormData`: Defines the structure of the form data.
 - **Benefit**: Provides a single source of truth for component interfaces, improving code readability and maintainability.
 
 ## 4. Integration with `estimate-project` Page

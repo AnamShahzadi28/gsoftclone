@@ -15,6 +15,7 @@
             { "name": "AI/ML Development Services", "href": "/services/ai-ml-development" }
           ]
         },
+        
         {
           "heading": "Design",
           "links": [
@@ -28,17 +29,17 @@
           "heading": "Other Services",
           "links": [
             { "name": "DevOps Services Company", "href": "/services/devops" },
-            { "name": "Cloud Services Company", "href": "/services/cloud" },
+            { "name": "Cloud Services Company", "href": "/services/cloud-services" },
             { "name": "Team Augmentation Services", "href": "/services/team-augmentation" }
           ]
         },
         {
           "heading": "How we work",
           "links": [
-            { "name": "Discover", "href": "/process/discover" },
-            { "name": "Planning and Designing", "href": "/process/planning" },
-            { "name": "Development & Testing", "href": "/process/development" },
-            { "name": "Deploy & Support", "href": "/process/support" }
+            { "name": "Discover", "href": "#" },
+            { "name": "Planning and Designing", "href": "#" },
+            { "name": "Development & Testing", "href": "#" },
+            { "name": "Deploy & Support", "href": "#" }
           ]
         }
       ]

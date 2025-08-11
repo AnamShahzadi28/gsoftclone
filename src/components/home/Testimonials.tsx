@@ -21,7 +21,7 @@ const TestimonialCard = ({
       }`}
     >
       <div className="bg-[#0f5368] min-h-[260px] px-8 py-10 rounded-xl flex items-center justify-center  text-left relative w-full">
-        <p className="text-lg leading-relaxed">{testimonial.text}</p>
+        <p className= " text-sm md:text-lg leading-relaxed">{testimonial.text}</p>
       </div>
       <div
         className={`flex flex-col items-center transition-opacity duration-500 ease-in-out mt-6 ${
@@ -56,7 +56,7 @@ export default function Testimonials() {
     <section className="w-full py-20 bg-navbg text-white">
       <div className="container mx-auto text-center">
         <h3 className="font-semibold text-xl tracking-wider  ">Testimonials</h3>
-        <h2 className="text-4xl md:text-5xl  font-bold mt-5 mb-14">What Our Clients Say</h2>
+        <h2 className="text-4xl md:text-5xl  font-bold mt-2 md:mt-5 mb-14">What Our Clients Say</h2>
       </div>
 
       <div

@@ -34,12 +34,17 @@ export default function Header() {
     const handleScroll = () => {
 
 
-      if (pathname === "/estimate-project" ) {
+      if (pathname === "/estimate-project"  ||pathname === "/jobDetails/business-development-manager-at-global-software-consulting"|| pathname === "/jobDetails/frontend-developer-at-global-software-consulting"
+        ||pathname === "/jobDetails/back-end-developer-at-global-software-consulting"|| pathname ==="/jobDetails/backend-developer-at-global-software-consulting"
+       ) {
             setIsScrolled(true);
             return;
           }
+          else{
+            setIsScrolled(window.scrollY > 50);
+          }
           
-      setIsScrolled(window.scrollY > 50);
+      
     };
 
     handleScroll(); // Check scroll position on initial load
@@ -48,7 +53,7 @@ export default function Header() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [pathname]);
 
   useEffect(() => {
     setActiveItem(pathname);

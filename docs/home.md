@@ -70,7 +70,7 @@ The main page component is located at `src/app/page.tsx`. The individual section
     -   `@/json/portfoliodata.json`: The data for the portfolio items.
     -   `@/types/home`: For the `PortfolioItem` type.
     -   `@heroui/react`: For `Tab` and `Tabs`.
--   **Styling**: A horizontally scrolling carousel with a centered, scaled-up active project. The non-active projects are scaled down and blurred.
+-   **Styling**: A responsive, horizontally scrolling carousel. On mobile devices, it displays one project at a time. On larger screens, it shows a centered, scaled-up active project, with the non-active projects scaled down and blurred. The component uses Tailwind CSS for responsive design.
 
 ### `Testimonials.tsx`
 

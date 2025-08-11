@@ -1,0 +1,103 @@
+
+{
+  "back-end-developer-at-global-software-consulting": {
+    "introduction": "In order to expand our team, we are looking for a “Back-End Developer” who will work alongside us in order to develop databases/platforms that are easy-to-use!",
+    "skills": [
+      "Node.js, Express, Nestjs, Strapi etc.",
+      "MySQL, Postgres, MongoDB",
+      "JavaScript, TypeScript, Webpack, ES6",
+      "Restful and GraphQL API",
+      "Familiar with agile methodologies, modern CI/CD technologies, docker, containers and AWS modules will be plus"
+    ],
+    "responsibilities": [
+      "Collaborating with the front-end developers and other team members to integrate user-facing elements with server-side logic, establish objectives and design more functional, cohesive codes to enhance the user experience.",
+      "Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for improvement.",
+      "Developing ideas for new programs, products, or features by monitoring industry developments and trends."
+    ]
+  },
+  "frontend-developer-at-global-software-consulting": {
+    "introduction": "In order to expand our team, we are looking for a “Front-End Developer” who will work alongside us in order to develop databases/platforms that are easy-to use!",
+    "skills": [
+      "Reactjs/ Nextjs",
+      "Redux, Hooks, Context API’s",
+      "Familiarity with RESTful APIs and GraphQL.",
+      "Material UI, Bootstrap, Tailwind",
+      "Testing framework e.g. Jest or others",
+      "HTML / CSS / SASS / LESS",
+      "Front-end development tools e.g. NPM, Webpack, Babel etc."
+    ],
+    "niceToHave": [
+      "Git, JIRA, AWS and Heroku"
+    ],
+    "responsibilities": [
+      "Creating website layout/user interfaces by using React Js, Nextjs",
+      "Develop new features for an existing product",
+      "Build pixel-perfect and responsive UIs for the web",
+      "Convert the given designs into functional websites using CMS, Bootstrap, Jquery, HTML5 or any given technology",
+      "Integrating data from various back-end services and databases",
+      "Use basic programming skills to optimize websites for SEO purpose",
+      "Maintain code and write automated tests to ensure the product is of the highest quality"
+    ]
+  },
+  "machine-learning-ai-developer-at-global-software-consulting": {
+    "introduction": "In order to expand our team, we are looking for a “ML / AI Developer” who will work alongside us in order to develop databases/platforms that are easy-to use!",
+    "skills": [
+      "2 years of Proven Experience as a Software Engineer",
+      "Experience in Python or JavaScript",
+      "OpenAI, ChatGPT and PyTorch",
+      "Excellent sense of creating and enhancing business use cases through ML/AI application",
+      "Tensorflow, MetaAI will be plus"
+    ],
+    "responsibilities": [
+      "Work with the engineering and the product teams to figure out what data is needed",
+      "Analyzing the ML algorithms that could be used to solve a given problem and ranking them by their success probability",
+      "Select appropriate datasets and data representation methods",
+      "Run machine learning tests and experiments",
+      "Perform statistical analysis and fine-tuning using test results",
+      "Extend existing ML libraries and frameworks",
+      "Fine Tune any model with new dataset"
+    ],
+    "whyWorkWithUs": [
+      "Market competitive salary",
+      "Provident fund",
+      "Medical Allowance",
+      "Performance Bonuses",
+      "Semi-Annual Increments",
+      "Paid Leaves and Paid Vacations",
+      "Quarterly Team Lunches",
+      "Learning and Flexible Environment",
+      "Professional Development"
+    ]
+  },
+  "business-development-manager-at-global-software-consulting": {
+    "introduction": "In order to expand our team, we are looking for a “Business Development Manager” who will work alongside us in order to develop databases/platforms that are easy-to use!",
+    "skills": [
+      "Extensive knowledge of all the freelancing platforms including Upwork, Fiverr, Freelancer and other freelancing platforms, etc.",
+      "Ability to bid on projects using the right sales pitching skills",
+      "Simple, clear and customer-centric communication (Written and Verbal both) along with excellent business communication skills",
+      "Ability to recognize technical, management, and cost risks and recommend mitigation approaches"
+    ],
+    "responsibilities": [
+      "Preparing proposals and SOWs for the projects awarded by the clients",
+      "Prepare sales pitch and reach out to the prospects over email and phone.",
+      "Lead generation and maintaining strong relationships with existing and new clients.",
+      "Maintaining the daily stats report of bids and leads",
+      "Taking follow ups with the client",
+      "Set up meetings with the clients and coordinate with the sales team in order to close the sale",
+      "Working closely with other team members in the sales team in order to make sure that the monthly revenue target of the company is achieved"
+    ],
+    "whyWorkWithUs": [
+      "Market competitive salary",
+      "Provident fund",
+      "Medical Allowance",
+      "Performance Bonuses",
+      "Semi-Annual Increments",
+      "Paid Leaves and Paid Vacations",
+      "Quarterly Team Lunches",
+      "Learning and Flexible Environment",
+      "Professional Development",
+      "Annual Recreational Trip"
+    ],
+    "howToApply": "Interested candidates are required to email their CV at hr.gsoftconsulting@gmail.com or hr@gsoftconsulting.com by mentioning the clear Job Title “Business Development Manager” in the subject line."
+  }
+}

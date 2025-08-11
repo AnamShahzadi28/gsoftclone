@@ -27,3 +27,12 @@
 .error {
   @apply text-sm text-red-500 mt-1;
 }
+
+
+
+.inputjob {
+
+  @apply w-full border border-gray-500 p-3 rounded focus:outline-none focus:ring-1 focus:ring-black text-gray-200 focus:border-white  mb-5;
+
+
+}

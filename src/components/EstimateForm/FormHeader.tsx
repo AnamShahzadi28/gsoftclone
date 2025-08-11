@@ -4,13 +4,13 @@ import { FormHeaderProps } from '@/types/estimateForm';
 const FormHeader: React.FC<FormHeaderProps> = ({ title, subtitle, description }) => {
   return (
     <>
-      <h1 className="text-4xl font-bold text-center text-cyan">
+      <h1 className="text-5xl font-bold leading-[1.2] text-center text-cyan">
         {title}
       </h1>
-      <p className="text-center text-lg font-medium">
+      <p className="text-center font-bold text-lg ">
         {subtitle}
       </p>
-      <p className="text-center text-gray-400">
+      <p className="text-center  text-gray-400">
         {description}
       </p>
     </>

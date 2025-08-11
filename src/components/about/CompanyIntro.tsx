@@ -5,7 +5,7 @@ import Image from 'next/image';
 const CompanyIntro = () => {
   return (
     <AnimatedOnScroll>
-    <section className=" px-20 py-20 bg-white">
+    <section className=" md:px-20 py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-stretch gap-12 lg:gap-16">
           {/* Left Column: Text Content */}

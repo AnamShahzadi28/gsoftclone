@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "slug": "back-end-developer-at-global-software-consulting",
+    "title": "Back-End (Node.js) Developer",
+    "location": "On-site (Lahore)",
+    "experience": "2 Years",
+    "category": "development",
+    "daysLeft": 30
+  },
+
+  {
+    "id": 2,
+    "slug": "frontend-developer-at-global-software-consulting",
+    "title": "Front-End (React.js) Developer",
+    "location": "On-site (Lahore)",
+    "experience": "2 Years",
+    "category": "development",
+    "daysLeft": 30
+  },
+
+  {
+    "id": 3,
+    "slug": "machine-learning-ai-developer-at-global-software-consulting",
+    "title": "Machine Learning / AI Developer",
+    "location": "On-site (Lahore)",
+    "experience": "2 Years",
+    "category": "development",
+    "daysLeft": 30
+  },
+  
+  {
+    "id": 4,
+    "slug": "business-development-manager-at-global-software-consulting",
+    "title": "Business Development Manager",
+    "location": "On-site (Lahore)",
+    "experience": "2 Years",
+    "category": "management",
+    "daysLeft": 30
+  }
+]

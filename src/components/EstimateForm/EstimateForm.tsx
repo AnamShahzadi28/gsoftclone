@@ -66,7 +66,7 @@ export default function EstimateForm() {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white px-4 py-12">
+    <div className="flex justify-center items-center min-h-screen bg-white md:px-4 py-30">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="w-full max-w-3xl bg-white p-10 space-y-3"

@@ -51,7 +51,7 @@ The relevant files for the contact page are organized as follows:
 ### 3.4. `PakistanImageMap.tsx`
 
 -   **Path**: `src/components/contact/PakistanImageMap.tsx`
--   **Description**: This component displays an image of the location and an embedded Google Map. The image source and map URL are passed in as props from the location data.
+-   **Description**: This component displays an image of the location and an embedded Google Map. The image source and map URL are passed in as props from the location data. It conditionally renders the image and iframe based on the presence of `location.image` and `location.mapEmbedUrl`.
 
 ### 3.5. `ComingSoon.tsx`
 
@@ -65,7 +65,8 @@ The relevant files for the contact page are organized as follows:
 -   **Functionality**:
     -   Uses `react-hook-form` for form state management.
     -   Uses `zod` for schema-based validation.
-    -   The form includes fields for `name`, `email`, `phone`, and `message`.
+    -   The form includes fields for `name`, `email`, `phone` (input type `number`), and `message`.
+    -   Uses `clsx` for conditional styling of the submit button.
     -   Upon successful submission, it displays a success message using `react-toastify`.
 
 ## 4. Data

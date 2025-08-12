@@ -53,7 +53,7 @@ This is the primary component that brings together all the elements of the navba
 -   **State Management**: Manages the open/close state of the mobile menu (`isMenuOpen`) and tracks the scroll position (`isScrolled`).
 -   **Scroll Handling**:
     -   Adds a scroll event listener to change the navbar's background color when the user scrolls down.
-    -   On the `/estimate-project` page, the navbar background is always dark (`bg-navbg`), regardless of the scroll position.
+    -   On the `/estimate-project` page and specific job detail pages (e.g., `/jobDetails/business-development-manager-at-global-software-consulting`, `/jobDetails/frontend-developer-at-global-software-consulting`, `/jobDetails/back-end-developer-at-global-software-consulting`, `/jobDetails/backend-developer-at-global-software-consulting`), the navbar background is always dark (`bg-navbg`), regardless of the scroll position.
     -   On other pages, the background becomes dark after scrolling down 50 pixels.
 -   **"Estimate Your Project" Button**: The "Estimate Your Project" button has special styling. On the `/estimate-project` page, it has a white background with dark text. On other pages, it has a transparent background with white text.
 -   **Responsive Rendering**: Renders the `DesktopNavbar` on large screens and the `MobileNavbar` on smaller screens.

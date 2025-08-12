@@ -101,7 +101,7 @@ export default function Header() {
             </Button>
           </NavbarItem>
           <button
-            className="lg:hidden text-white text-2xl"
+            className="lg:hidden text-white text-2xl "
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >

@@ -17,6 +17,7 @@ export type TechnologyTabsProps = {
 export type PortfolioItem = {
   id: number;
   category: 'Mobile App' | 'Web App';
+  slug:string;
   image: string;
   title: string;
   description: string;

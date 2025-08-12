@@ -5,6 +5,8 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import portfolioData from '@/json/portfoliodata.json';
 import { PortfolioItem } from '@/types/home';
 import { Tab, Tabs } from '@heroui/react';
+import Link from "next/link";
+
 
 export default function Portfolio() {
   const [activeTab, setActiveTab] = useState<'Mobile App' | 'Web App'>('Mobile App');
@@ -60,6 +62,9 @@ export default function Portfolio() {
           </Tabs>
         </div>
 
+        
+        
+        
         <div className="mt-8 md:mt-12">
           {/* Responsive Carousel */}
           <div className="relative w-full overflow-hidden">
@@ -67,11 +72,21 @@ export default function Portfolio() {
               className="flex transition-transform duration-500 ease-in-out"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
+
+
+
               {filteredProjects.map((project) => (
+
+
+
+
+                
+                
                 <div
                   key={project.id}
                   className="relative h-64 md:h-[450px] flex-shrink-0 w-full"
                 >
+                   <Link href={`/portfolio/${project.slug}`}>
                   <Image
                     src={project.image}
                     alt={project.title}
@@ -79,7 +94,9 @@ export default function Portfolio() {
                     style={{ objectFit: 'contain' }}
                     className="rounded-lg"
                   />
+                  </Link>
                 </div>
+                
               ))}
             </div>
           </div>

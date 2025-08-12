@@ -16,7 +16,7 @@ export default function TabContent() {
   return (
     <>
       {/* Top Hero Section (Dark Background) */}
-      <div className="bg-navbg py-30">
+      <div className="bg-navbg pt-20 pb-5">
         <div className="container mx-auto px-4 flex flex-col items-center">
           <Tabs
             selectedKey={selectedTab}

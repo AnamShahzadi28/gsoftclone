@@ -12,6 +12,8 @@ export interface PortfolioProject {
 export interface SharedHeroProps {
   title: string;
   subtitle?: string;
+  isBlogPage?: boolean;
+  
 }
 
 export interface PortfolioGridProps {

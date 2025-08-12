@@ -17,12 +17,12 @@ export default function MobileNavbar({ navLinks, onClose }: MobileNavbarProps) {
   };
 
   return (
-    <NavbarMenu className="bg-navbg pt-8">
+    <NavbarMenu className="bg-navbg pt-8 ">
       {navLinks.map((item) =>
         item.isDropdown && item.megaMenu ? (
-          <NavbarMenuItem key={item.name}>
-            <div className="flex w-full items-center justify-between text-white text-lg py-2">
-              <Link href={item.href} onClick={onClose} className="flex-grow">
+          <NavbarMenuItem key={item.name} className="py-3 "> {/* Added py-3 */}
+            <div className="flex w-full items-center justify-between text-white text-lg"> {/* Removed py-2 */}
+              <Link href={item.href} onClick={onClose} className="flex-grow hover:text-cyan">
                 {item.name}
               </Link>
               <button
@@ -42,7 +42,7 @@ export default function MobileNavbar({ navLinks, onClose }: MobileNavbarProps) {
                 {item.megaMenu?.flatMap((section) => section.links).map((link) => (
                   <Link
                     key={link.name}
-                    className="w-full text-white text-lg py-1 block"
+                    className="w-full text-white text-lg py-1 block hover:text-cyan"
                     href={link.href}
                     onClick={onClose}
                   >
@@ -53,8 +53,8 @@ export default function MobileNavbar({ navLinks, onClose }: MobileNavbarProps) {
             )}
           </NavbarMenuItem>
         ) : (
-          <NavbarMenuItem key={item.name}>
-            <Link className="w-full text-white text-lg py-5" href={item.href} onClick={onClose}>
+          <NavbarMenuItem key={item.name} className="py-3"> {/* Added py-3 */}
+            <Link className="w-full text-white text-lg hover:text-cyan" href={item.href} onClick={onClose}> {/* Removed py-5 */}
               {item.name}
             </Link>
           </NavbarMenuItem>

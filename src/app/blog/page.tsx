@@ -5,9 +5,10 @@ export default function Blog() {
   return    (
   
   <>
-  <SharedHero title = "Blog"/>
+  <SharedHero title = "Blog" isBlogPage={true} />
   <BlogPage />
 
   </>
   );
 }
+
